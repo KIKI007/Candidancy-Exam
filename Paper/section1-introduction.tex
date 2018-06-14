@@ -6,94 +6,106 @@
 \section{Introduction}
 \label{sec:introduction}
 
-% 3D assemblies: parts connection
-3D assemblies refer to objects that combine multiple component parts into a structure with a specific form and/or functionality.  Connection mechanisms are usually required to prevent the parts from moving relative to one another and make the assembly steady for practical usage.
-However, these connectors can be irreversible (e.g., glue), impair the structural integrity of parts (e.g., nails), or degrade the external appearance of the assembly (e.g., clamps).
-%In addition, connecting parts with these fasteners could be a tedious task, e.g., gluing two parts together requires aligning the parts accurately.
+%why we need to conduct research on assembly, what is the problem
+Assemblies are almost everywhere around us. The furniture, cars and even buildings could be considered as assemblies. Given an assembly, analyzing its structural stability, tolerance accumulation and assembling sequences are classic problems, which are also indispensable for validation before manufacture. To find a feasible solution, designers have to switch between design and analysis for many iterations. Most of practical assembly designs require great amount of heuristic knowledge, which prevent non-professional users from participating. Instead, researchers in computer graphics begin to consider a new type of constrains-aware design, where constraints are satisfied during the design stage while providing users with a relatively large design space.
 
-% 3D interlocking assemblies: properties and applications
-Rather than relying on additional explicit connectors, interlocking assemblies connect parts into a steady structure  based only on the geometric arrangement of the parts. This intriguing property facilitates repeated assembly and disassembly and significantly simplifies the correct alignment of parts during construction.
-Consequently, interlocking assemblies have been used in a variety of applications, including puzzles~\cite{Stegmann-2018-PuzzlePage}, furniture~\cite{Fu-2015-Furniture}, architecture~\cite{Deepak-2012-InterlockBlock}, and 3D printing~\cite{Yao-2017-InterlockShell}.
-
-% Designing 3D interlocking assemblies
-In an interlocking assembly, parts need to follow certain orders to be assembled into the target object.
-Once assembled, there is only one movable part, called the {\em key},  while all other parts as well as any subset of  parts are immobilized relative to one another~\cite{Song-2012-InterCubes}.
-However, this defining property of parts immobilization makes designing interlocking assemblies highly challenging. Explicitly testing the immobilization of every subset of parts requires costly computations; optimizing for the geometry of parts that satisfy these immobilization requirements, while avoiding dead-locking, is even more complex.
-%Second, modifying an individual part could easily break the global interlocking property.
-%Second, the parts still can be disassembled without deadlocking.
-
-% Limitations of existing approaches
-Recently, several computational approaches have been developed to address this problem~\cite{Xin-2011-BurrPuzzles, Song-2012-InterCubes, Fu-2015-Furniture, Song-2016-CoFiFab, Zhang-2016-InterlockVoxel, Song-2017-ReconfigInterlock, Yao-2017-InterlockShell}.
-The common idea is to directly guarantee global interlocking by constructing and connecting multiple local interlocking groups (LIGs), which avoids the overhead of testing all part subsets for immobilization.
-While these methods show successful results, they only focus on specific sub-classes of interlocking assemblies, e.g., recursive interlocking puzzles ~\cite{Song-2012-InterCubes}, but do not explore the full search space of all possible interlocking configurations.
-As a consequence, these approaches are restricted in the kind of input shapes they can handle and  have limited flexibility to satisfy additional design requirements besides interlocking, e.g., related to aesthetics or functional performance.
-
-%Hence, these approaches are quite restrictive in three aspects.
-%First, they actually focus on a special subset of general interlocking assemblies, e.g., recursive interlocking puzzles by~\cite{Song-2012-InterCubes}.
-%First, these approaches can only handle input shapes that satisfy certain requirements, e.g., \cite{Fu-2015-Furniture} requires the input furniture has many small cyclic substructures.
-%Second, their interlocking designs are difficult to be edited and reused since slight modification on these designs could break the carefully achieved global interlocking, while existing approaches have no way to correct these modifications.
-
-% Our focus: general interlocking assembly
-%The above limitations arise because existing approaches keep using a similar divide-and-conquer strategy  for the purpose of generating specific interlocking designs while do not fully explore the all possible interlocking configurations.
-\pagebreak
-
-\vspace*{2.0mm}
-\noindent
-{\bf Contributions.} \
-In this paper, we propose a new general framework for DESigning Interlocking Assemblies, called {\em DESIA}, that avoids the restrictions of previous LIG-based methods.
-Specifically, we make the following  contributions:
-
-
-%we investigate the mechanism of interlocking assemblies in greater depth, aiming at developing a general computational method for designing interlocking assemblies.
-%In particular, we focus on  3D assemblies that have rigid parts and neighboring parts have planar surface contact such that each part can only have translational motion (i.e., no rotational motion) in the final assembly.
-
-% Our contributions:
-%The paper makes the following contributions:
-
-%\vspace*{-1.0mm}
-\begin{itemize}[leftmargin=*]
-\item 
-We represent interlocking assemblies with a set of base {\em Directional Blocking Graphs} (DBGs) and implement an efficient graph analysis algorithm that can test for global interlocking in polynomial time complexity.
-
-%We connect interlocking assemblies with the {\em Non-Directional Blocking Graph} (NDBG)~\cite{Wilson-1992-AssemblyPlanning} that describes parts blocking relations in an assembly, and check interlocking with polynomial time complexity by taking advantage of the graphs.
-
-%We formulate interlocking property of general 3D assemblies as a set of mathematical inequalities.
-%This formulation leads to an intuitive graph-based \Mark{give a name to the graph} representation of interlocking assemblies, where each directed graph represents the parts immobilization relationship along a specific part movable direction. \Peng{need to compare with~\cite{Tai-2012-InterlockRF,Wilson-1992-AssemblyPlanning}}
-%We show that an assembly is interlocking if each directed graph forms a single strongly connected component, without considering the key 
-%assuming the key is held by some other means.
-
-\vspace*{1.0mm}
-\item  
-We introduce a general iterative framework for designing interlocking assemblies that can explore the full search space of all possible interlocking configurations by utilizing existing part blocking relations described in the graphs.
-
-\vspace*{1.0mm}
-\item We demonstrate the flexibility of our framework for designing different classes of assemblies, including new types of interlocking forms that have not been explored in previous works.
-
- \end{itemize}
-
-\noindent
-%Directional blocking graphs were first proposed in the context of mechanical assemblies by Wilson~\shortcite{Wilson-1992-AssemblyPlanning} to describe part relations. In our work we show that a small set of base DBGs is ideally suited to encode mutual blocking relations for interlocking assemblies.
-
-%Our method allows identifying certain kinds of input models (with known parts-graph) that cannot be interlocking, no matter what kinds of joints are created among the parts, and provides suggestions to modify these input models to enable interlocking. 
+%why we need to find the assembling sequence?
 
 
 
+%what is interlocking, what is its advantage, why it is hard
 
-%The key idea is to compute local blocking relations among parts that are required for achieving global interlocking by maintaining a dynamic NDBG, and constructe parts/joints geometry to realize these local blocking relations.  
+%why graph theory play such important role in designing interlocking
 
-%This cannot be achieved by previous approaches that focus on each specific kind of interlocking assemblies.
-
-
-
-%\vspace*{1.5mm}
+%
+%% 3D assemblies: parts connection
+%3D assemblies refer to objects that combine multiple component parts into a structure with a specific form and/or functionality.  Connection mechanisms are usually required to prevent the parts from moving relative to one another and make the assembly steady for practical usage.
+%However, these connectors can be irreversible (e.g., glue), impair the structural integrity of parts (e.g., nails), or degrade the external appearance of the assembly (e.g., clamps).
+%%In addition, connecting parts with these fasteners could be a tedious task, e.g., gluing two parts together requires aligning the parts accurately.
+%
+%% 3D interlocking assemblies: properties and applications
+%Rather than relying on additional explicit connectors, interlocking assemblies connect parts into a steady structure  based only on the geometric arrangement of the parts. This intriguing property facilitates repeated assembly and disassembly and significantly simplifies the correct alignment of parts during construction.
+%Consequently, interlocking assemblies have been used in a variety of applications, including puzzles~\cite{Stegmann-2018-PuzzlePage}, furniture~\cite{Fu-2015-Furniture}, architecture~\cite{Deepak-2012-InterlockBlock}, and 3D printing~\cite{Yao-2017-InterlockShell}.
+%
+%% Designing 3D interlocking assemblies
+%In an interlocking assembly, parts need to follow certain orders to be assembled into the target object.
+%Once assembled, there is only one movable part, called the {\em key},  while all other parts as well as any subset of  parts are immobilized relative to one another~\cite{Song-2012-InterCubes}.
+%However, this defining property of parts immobilization makes designing interlocking assemblies highly challenging. Explicitly testing the immobilization of every subset of parts requires costly computations; optimizing for the geometry of parts that satisfy these immobilization requirements, while avoiding dead-locking, is even more complex.
+%%Second, modifying an individual part could easily break the global interlocking property.
+%%Second, the parts still can be disassembled without deadlocking.
+%
+%% Limitations of existing approaches
+%Recently, several computational approaches have been developed to address this problem~\cite{Xin-2011-BurrPuzzles, Song-2012-InterCubes, Fu-2015-Furniture, Song-2016-CoFiFab, Zhang-2016-InterlockVoxel, Song-2017-ReconfigInterlock, Yao-2017-InterlockShell}.
+%The common idea is to directly guarantee global interlocking by constructing and connecting multiple local interlocking groups (LIGs), which avoids the overhead of testing all part subsets for immobilization.
+%While these methods show successful results, they only focus on specific sub-classes of interlocking assemblies, e.g., recursive interlocking puzzles ~\cite{Song-2012-InterCubes}, but do not explore the full search space of all possible interlocking configurations.
+%As a consequence, these approaches are restricted in the kind of input shapes they can handle and  have limited flexibility to satisfy additional design requirements besides interlocking, e.g., related to aesthetics or functional performance.
+%
+%%Hence, these approaches are quite restrictive in three aspects.
+%%First, they actually focus on a special subset of general interlocking assemblies, e.g., recursive interlocking puzzles by~\cite{Song-2012-InterCubes}.
+%%First, these approaches can only handle input shapes that satisfy certain requirements, e.g., \cite{Fu-2015-Furniture} requires the input furniture has many small cyclic substructures.
+%%Second, their interlocking designs are difficult to be edited and reused since slight modification on these designs could break the carefully achieved global interlocking, while existing approaches have no way to correct these modifications.
+%
+%% Our focus: general interlocking assembly
+%%The above limitations arise because existing approaches keep using a similar divide-and-conquer strategy  for the purpose of generating specific interlocking designs while do not fully explore the all possible interlocking configurations.
+%%\pagebreak
+%
+%%\vspace*{2.0mm}
+%\noindent
+%{\bf Contributions.} \
+%In this paper, we propose a new general framework for DESigning Interlocking Assemblies, called {\em DESIA}, that avoids the restrictions of previous LIG-based methods.
+%Specifically, we make the following  contributions:
+%
+%
+%%we investigate the mechanism of interlocking assemblies in greater depth, aiming at developing a general computational method for designing interlocking assemblies.
+%%In particular, we focus on  3D assemblies that have rigid parts and neighboring parts have planar surface contact such that each part can only have translational motion (i.e., no rotational motion) in the final assembly.
+%
+%% Our contributions:
+%%The paper makes the following contributions:
+%
+%%\vspace*{-1.0mm}
+%\begin{itemize}[leftmargin=*]
 %\item 
-%We also prove the formal models in previous works~\cite{Song-2012-InterCubes,Fu-2015-Furniture} that directly guarantee global interlocking. 
-%\Mark{better to put this in the conclusion}
-
-
-The rest of the paper is organized as follows. We first discuss related work in Section~\ref{sec:related}.
-In Section~\ref{sec:model} we introduce our graph-based representation for assemblies and present an efficient algorithm for testing whether an assembly is interlocking. Section~\ref{sec:approach} then describes our computational framework for designing interlocking assemblies.
-In Section~\ref{sec:results} we show different types of assemblies generated with our approach, compare with previous works, and highlight several application examples.  We conclude with a discussion of limitations of our approach and some thoughts on future research problems.
+%We represent interlocking assemblies with a set of base {\em Directional Blocking Graphs} (DBGs) and implement an efficient graph analysis algorithm that can test for global interlocking in polynomial time complexity.
+%
+%%We connect interlocking assemblies with the {\em Non-Directional Blocking Graph} (NDBG)~\cite{Wilson-1992-AssemblyPlanning} that describes parts blocking relations in an assembly, and check interlocking with polynomial time complexity by taking advantage of the graphs.
+%
+%%We formulate interlocking property of general 3D assemblies as a set of mathematical inequalities.
+%%This formulation leads to an intuitive graph-based \Mark{give a name to the graph} representation of interlocking assemblies, where each directed graph represents the parts immobilization relationship along a specific part movable direction. \Peng{need to compare with~\cite{Tai-2012-InterlockRF,Wilson-1992-AssemblyPlanning}}
+%%We show that an assembly is interlocking if each directed graph forms a single strongly connected component, without considering the key 
+%%assuming the key is held by some other means.
+%
+%\vspace*{1.0mm}
+%\item  
+%We introduce a general iterative framework for designing interlocking assemblies that can explore the full search space of all possible interlocking configurations by utilizing existing part blocking relations described in the graphs.
+%
+%\vspace*{1.0mm}
+%\item We demonstrate the flexibility of our framework for designing different classes of assemblies, including new types of interlocking forms that have not been explored in previous works.
+%
+% \end{itemize}
+%
+%\noindent
+%%Directional blocking graphs were first proposed in the context of mechanical assemblies by Wilson~\shortcite{Wilson-1992-AssemblyPlanning} to describe part relations. In our work we show that a small set of base DBGs is ideally suited to encode mutual blocking relations for interlocking assemblies.
+%
+%%Our method allows identifying certain kinds of input models (with known parts-graph) that cannot be interlocking, no matter what kinds of joints are created among the parts, and provides suggestions to modify these input models to enable interlocking. 
+%
+%
+%
+%
+%%The key idea is to compute local blocking relations among parts that are required for achieving global interlocking by maintaining a dynamic NDBG, and constructe parts/joints geometry to realize these local blocking relations.  
+%
+%%This cannot be achieved by previous approaches that focus on each specific kind of interlocking assemblies.
+%
+%
+%
+%%\vspace*{1.5mm}
+%%\item 
+%%We also prove the formal models in previous works~\cite{Song-2012-InterCubes,Fu-2015-Furniture} that directly guarantee global interlocking. 
+%%\Mark{better to put this in the conclusion}
+%
+%
+%The rest of the paper is organized as follows. We first discuss related work in Section~\ref{sec:related}.
+%In Section~\ref{sec:model} we introduce our graph-based representation for assemblies and present an efficient algorithm for testing whether an assembly is interlocking. Section~\ref{sec:approach} then describes our computational framework for designing interlocking assemblies.
+%In Section~\ref{sec:results} we show different types of assemblies generated with our approach, compare with previous works, and highlight several application examples.  We conclude with a discussion of limitations of our approach and some thoughts on future research problems.
 
 
 \if 0

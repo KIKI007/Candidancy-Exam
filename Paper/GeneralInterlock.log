@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.21)  14 JUN 2018 13:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.21)  14 JUN 2018 22:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1010,28 +1010,33 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(./section1-introduction.tex
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 6.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 6.
 ) [1.1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
-
-(./GeneralInterlock.aux)
+ (./GeneralInterlock.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
 Package rerunfilecheck Info: File `GeneralInterlock.out' has not changed.
-(rerunfilecheck)             Checksum: 6ADFE73BF24296253212A8009AB0B473;84.
+(rerunfilecheck)             Checksum: 610CC6B9652203B46DD83EC3A4FD2400;200.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
  ) 
 Here is how much of TeX's memory you used:
- 18091 strings out of 492995
- 271376 string characters out of 6132703
- 383955 words of memory out of 5000000
- 21117 multiletter control sequences out of 15000+600000
- 74519 words of font info for 107 fonts, out of 8000000 for 9000
+ 18140 strings out of 492995
+ 272572 string characters out of 6132703
+ 386991 words of memory out of 5000000
+ 21123 multiletter control sequences out of 15000+600000
+ 87919 words of font info for 132 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,11n,94p,827b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,94p,836b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc
 }{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{
@@ -1041,10 +1046,10 @@ usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb
 .pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibert
 ineTB.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinL
 ibertineTI.pfb>
-Output written on GeneralInterlock.pdf (1 page, 262923 bytes).
+Output written on GeneralInterlock.pdf (1 page, 264866 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 19989 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 52 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
+ 28189 words of extra memory for PDF output out of 29859 (max. 10000000)
 
