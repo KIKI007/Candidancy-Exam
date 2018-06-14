@@ -1,0 +1,41 @@
+# List of object files with id starts from 0
+Objects 12
+part_C0_P00_U00.obj part_C0_P01_U01.obj part_C0_P02_U02.obj part_C0_P03_U03.obj part_C0_P04_U04.obj part_C0_P05_U05.obj part_C0_P06_U06.obj part_C0_P07_U07.obj part_C0_P08_U08.obj part_C0_P09_U09.obj part_C0_P10_U10.obj part_C0_P11_U11.obj 
+
+# List of actions during the animation
+Begin Action 150
+Move id 0 [0.00, 1.20, 0.00]
+End
+Begin Action 75
+Move id 1 [-0.6, 0.00, 0.00]
+End
+Begin Action 75
+Move id 1 [0, 0.6, 0.00]
+End
+Begin Action 150
+Move id 2 [-1.20, 0.00, 0.00]
+End
+Begin Action 150
+Move id 3 [-1.20, 0.00, 0.00]
+End
+Begin Action 150
+Move id 4 [0.00, 0.00, -1.20]
+End
+Begin Action 150
+Move id 5 [-1.20, 0.00, 0.00]
+End
+Begin Action 150
+Move id 6 [0.00, 0.00, -1.20]
+End
+Begin Action 150
+Move id 7 [-1.20, 0.00, 0.00]
+End
+Begin Action 150
+Move id 8 [0.00, 1.20, 0.00]
+End
+Begin Action 150
+Move id 9 [0.00, 1.20, 0.00]
+End
+Begin Action 150
+Move id 10 [0.00, 1.20, 0.00]
+End

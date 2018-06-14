@@ -1,0 +1,59 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Overivew
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\section{Conclusion}
+\label{sec:conclusion}
+ 
+Combining parts into an interlocking assembly imposes strong constraints on the part geometry and arrangement. Our novel framework leverages carefully designed graph representations and algorithms to efficiently test whether an assembly of parts is interlocking. This efficiency and the generality of our tree-traversal algorithm allows us 
+to explore a significantly larger configuration space compared to previous solutions. As a consequence, our approach can find interlocking assemblies for models that previous methods fail on, allows integrating additional geometric constraints to better meet the design goals, and enables new types of assemblies not possible before. 
+ 
+ 
+ 
+%We present {\em{DESIA}}, a general framework for designing interlocking assemblies. 
+%The foundation is the conceptual representation of interlocking assemblies using a set of directed graph called the base DBGs that encode blocking relations among the parts along a finite number of directions.
+%Guided by these graphs, DESIA constructs interlocking assemblies iteratively using a two-stage scheme, where the first stage specifies desired blocking relations among the parts while the second stage realizes them in the embedded geometry.
+%Rather than focusing on each specific kind of assemblies as previous works, 
+%DESIA supports designing interlocking assemblies of various forms and allows generating interlocking results according to users' desires.
+%%assemblies where the parts have been initialized or not,
+%%assemblies where parts are orthogonally or non-orthogonally connected, and
+%%assemblies where joints are reused or constructed on site.
+%Compared with previous works, DESIA significantly enhances the flexibility of designing interlocking assemblies by exploring a significantly enlarged search space. 
+%The achievements of DESIA are evidenced by the various results presented in paper that cannot be designed without using DESIA.
+ 
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Limitations and Future Work
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\vspace*{2.0mm}
+\noindent
+{\bf Limitations and Future Work.} \
+Our work has several limitations that open up interesting directions for future research.
+Currently we assume planar inter-part contact and translational assembly motion.
+While this simplifies the conceptual representation as well as the fabrication and construction of interlocking assemblies, generalizations to non-planar contact and more complex assembly motions could lead to new types of assemblies not possibly today. 
+We currently do not analyze the structural implications of the way individual pieces are connected. 
+As future work, it would be valuable to optimize the stress distribution to avoid high local stress in the assembly. 
+Another important aspect that is currently not covered in our work is tolerance handling. Fabrication imprecisions lead to deviations in the part geometries that can accumulate and negatively impact the stability of the assembly. 
+How to design for robustness against such error accumulation is an exciting future research problem.
+The frame structure that we introduce in this paper is just one instance of a broader class of possible assemblies where joint geometries are optimized together with the assembly, instead of being selected from a set of pre-defined joint types. Voxelized cube joints do not necessarily provide the most appropriate connection and novel joint typologies could be discovered in the future that are better suited for the kind of multi-part joints that we studied in this paper. Other potential directions for future work include assemblies of deformable parts~\cite{Skouras-2015-InterlockElement} or reconfigurable assemblies.
+ 
+ 
+%However, since our approach considers a significantly enlarged search space, structurally stable assemblies are more likely to exist in the solution space of our approach as compared to previous methods.
+ 
+ 
+%Our approaches works only on 3D assembly with rigid parts, but not soft and deformable parts~\cite{Skouras-2015-InterlockElement}
+ 
+%Do not consider multi-step disassembly 
+ 
+ 
+ 
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Backup
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ 
+ 
+ 
+ 

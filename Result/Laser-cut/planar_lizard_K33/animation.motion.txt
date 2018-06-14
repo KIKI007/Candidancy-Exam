@@ -1,0 +1,135 @@
+Objects 33
+part_0.obj part_1.obj part_2.obj part_3.obj part_4.obj part_5.obj part_6.obj part_7.obj part_8.obj part_9.obj part_10.obj part_11.obj part_12.obj part_13.obj part_14.obj part_15.obj part_16.obj part_17.obj part_18.obj part_19.obj part_20.obj part_21.obj part_22.obj part_23.obj part_24.obj part_25.obj part_26.obj part_27.obj part_28.obj part_29.obj part_30.obj part_31.obj part_32.obj 
+
+Begin Action 130
+Move id 1 [-0.6,0.0,0.0]
+End
+
+Begin Action 130
+Move id 2 [-1.77283078908e-16,-0.438633160946,0.409390950216]
+End
+
+Begin Action 130
+Move id 3 [-1.77283078908e-16,0.438633160946,0.409390950216]
+End
+
+Begin Action 130
+Move id 4 [-0.438633160946,1.77283078908e-16,0.409390950216]
+End
+
+Begin Action 130
+Move id 5 [-0.424264068712,-0.424264068712,0.0]
+End
+
+Begin Action 130
+Move id 6 [-0.424264068712,0.424264068712,7.58924937652e-16]
+End
+
+Begin Action 130
+Move id 7 [-0.424264068712,0.424264068712,0.0]
+End
+
+Begin Action 130
+Move id 8 [-0.424264068712,-0.424264068712,-0.0]
+End
+
+Begin Action 130
+Move id 9 [0.390474824074,-2.06077246599e-16,0.455553961419]
+End
+
+Begin Action 130
+Move id 10 [-0.0017927652282,-0.257958996725,0.541713893122]
+End
+
+Begin Action 130
+Move id 11 [1.11089988623e-15,0.257960148235,0.541716311294]
+End
+
+Begin Action 130
+Move id 13 [-0.6,-0.0,-0.0]
+End
+
+Begin Action 130
+Move id 14 [-0.6,1.70530256582e-16,0.0]
+End
+
+Begin Action 130
+Move id 12 [-0.0,-0.6,-0.0]
+End
+
+Begin Action 130
+Move id 15 [-0.255603860169,-0.36514837167,0.401663208837]
+End
+
+Begin Action 130
+Move id 16 [-0.255603860169,0.36514837167,0.401663208837]
+End
+
+Begin Action 130
+Move id 17 [-0.31581276877,8.98286659711e-17,0.510159088013]
+End
+
+Begin Action 130
+Move id 18 [0.475574393463,-0.36582645651,1.0568109902e-16]
+End
+
+Begin Action 130
+Move id 19 [-0.475574393463,-0.36582645651,-1.0568109902e-16]
+End
+
+Begin Action 130
+Move id 20 [0.287311278408,1.06280804376e-15,0.526737343749]
+End
+
+Begin Action 130
+Move id 21 [0.347132912124,-0.451272785761,-0.189345224795]
+End
+
+Begin Action 130
+Move id 22 [0.347132912124,0.451272785761,-0.189345224795]
+End
+
+Begin Action 130
+Move id 23 [0.0,0.0,0.6]
+End
+
+Begin Action 130
+Move id 24 [0.0,0.0,0.6]
+End
+
+Begin Action 130
+Move id 25 [0.438633160946,1.77283078908e-16,0.409390950216]
+End
+
+Begin Action 130
+Move id 26 [0.438633160946,-1.77283078908e-16,0.409390950216]
+End
+
+Begin Action 130
+Move id 30 [0.594743872988,-0.0792447193404,0.0]
+End
+
+Begin Action 130
+Move id 31 [0.0,0.0,0.6]
+End
+
+Begin Action 130
+Move id 32 [0.0,0.0,0.6]
+End
+
+Begin Action 130
+Move id 27 [0.424264068712,0.424264068712,0.0]
+End
+
+Begin Action 130
+Move id 28 [0.424264068712,-0.424264068712,0.0]
+End
+
+Begin Action 130
+Move id 29 [0.424264068712,0.424264068712,0.0]
+End
+
+Begin Action 130
+Move id 33 [0.0,0.0,0.0]
+End
+

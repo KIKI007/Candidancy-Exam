@@ -1,0 +1,261 @@
+
+# List of object files with id starts from 1
+Objects 80
+grid1_piece1.obj grid1_piece2.obj grid1_piece3.obj grid1_piece4.obj grid1_piece5.obj grid1_piece6.obj grid2_piece1.obj grid2_piece2.obj grid2_piece3.obj grid2_piece4.obj grid2_piece5.obj grid2_piece6.obj grid3_piece1.obj grid3_piece2.obj grid3_piece3.obj grid3_piece4.obj grid3_piece5.obj grid3_piece6.obj grid4_piece1.obj grid4_piece2.obj grid4_piece3.obj grid4_piece4.obj grid4_piece5.obj grid4_piece6.obj grid5_piece1.obj grid5_piece2.obj grid5_piece3.obj grid5_piece4.obj grid5_piece5.obj grid5_piece6.obj grid6_piece1.obj grid6_piece2.obj grid6_piece3.obj grid6_piece4.obj grid6_piece5.obj grid6_piece6.obj grid7_piece1.obj grid7_piece2.obj grid7_piece3.obj grid7_piece4.obj grid7_piece5.obj grid7_piece6.obj grid8_piece1.obj grid8_piece2.obj grid8_piece3.obj grid8_piece4.obj grid8_piece5.obj grid8_piece6.obj grid9_piece1.obj grid9_piece2.obj grid9_piece3.obj grid9_piece4.obj grid9_piece5.obj grid9_piece6.obj grid10_piece1.obj grid10_piece2.obj grid10_piece3.obj grid10_piece4.obj grid10_piece5.obj grid10_piece6.obj grid11_piece1.obj grid11_piece2.obj grid11_piece3.obj grid11_piece4.obj grid11_piece5.obj grid11_piece6.obj grid12_piece1.obj grid12_piece2.obj grid12_piece3.obj grid12_piece4.obj grid12_piece5.obj grid12_piece6.obj grid13_piece1.obj grid13_piece2.obj grid13_piece3.obj grid13_piece4.obj grid13_piece5.obj grid13_piece6.obj grid14_piece1.obj grid14_piece2.obj 
+
+# List of actions during the animation
+Begin Action 130
+Move id 1 [0.00, 1.73, 0.00]
+End
+Begin Action 30
+Move id 2 [0.00, 0.00, -0.13]
+End
+Begin Action 130
+Move id 2 [1.73, 0.00, 0.00]
+End
+Begin Action 30
+Move id 3 [0.00, 0.13, 0.00]
+End
+Begin Action 130
+Move id 3 [-1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 4 [0.00, 1.73, 0.00]
+End
+Begin Action 130
+Move id 5 [0.00, 1.73, 0.00]
+End
+Begin Action 130
+Move id 6 [0.00, 1.73, 0.00]
+End
+Begin Action 130
+Move id 7 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 8 [0.00, 1.73, 0.00]
+End
+Begin Action 30
+Move id 9 [0.00, 0.13, 0.00]
+End
+Begin Action 130
+Move id 9 [0.00, 0.00, 1.73]
+End
+Begin Action 30
+Move id 10 [0.00, 0.13, 0.00]
+End
+Begin Action 130
+Move id 10 [-1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 11 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 12 [0.00, 1.73, 0.00]
+End
+Begin Action 130
+Move id 13 [0.00, 1.73, 0.00]
+End
+Begin Action 130
+Move id 14 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 15 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 16 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 17 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 18 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 19 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 20 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 21 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 22 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 23 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 24 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 25 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 26 [1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 27 [1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 28 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 29 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 30 [1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 31 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 32 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 33 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 34 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 35 [0.00, 0.00, -1.73]
+End
+Begin Action 130
+Move id 36 [0.00, 0.00, -1.73]
+End
+Begin Action 130
+Move id 37 [1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 38 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 39 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 40 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 41 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 42 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 43 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 44 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 45 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 46 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 47 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 48 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 49 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 50 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 51 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 52 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 53 [0.00, 0.00, -1.73]
+End
+Begin Action 30
+Move id 54 [0.13, 0.00, 0.00]
+End
+Begin Action 130
+Move id 54 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 55 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 56 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 57 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 58 [0.00, 0.00, -1.73]
+End
+Begin Action 130
+Move id 59 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 60 [1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 61 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 62 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 63 [1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 64 [1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 65 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 66 [1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 67 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 68 [1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 69 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 70 [0.00, -1.73, 0.00]
+End
+Begin Action 130
+Move id 71 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 72 [1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 73 [1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 74 [1.73, 0.00, 0.00]
+End
+Begin Action 130
+Move id 75 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 76 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 77 [0.00, 0.00, 1.73]
+End
+Begin Action 130
+Move id 78 [0.00, -1.73, 0.00]
+End
+Begin Action 30
+Move id 79 [0.00, 0.00, -0.13]
+End
+Begin Action 130
+Move id 79 [-1.73, 0.00, 0.00]
+End

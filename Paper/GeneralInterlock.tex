@@ -1,0 +1,135 @@
+\documentclass[acmtog]{acmart}
+%\documentclass[acmtog]{acmart}
+
+\usepackage{booktabs} % For formal tables
+\usepackage{enumitem}
+\usepackage{wrapfig}
+%\usepackage[ruled]{algorithm2e}
+
+\usepackage[noend]{algpseudocode}
+
+\usepackage{algpseudocode,algorithm,algorithmicx}
+
+
+\acmPrice{15.00}
+
+% The next eight lines come directly from the completed rights form.
+% You MUST replace them with the lines specific to your accepted work.
+%\setcopyright{acmlicensed}
+\setcopyright{none}
+\acmJournal{TOG}
+\acmYear{2018}
+\acmVolume{37}
+\acmNumber{6}
+\acmArticle{xxx}
+\acmMonth{12}
+\acmDOI{10.1145/8888888.7777777}
+
+% Use the "authoryear" citation style, and make sure citations are in [square brackets].
+\citestyle{acmauthoryear}
+\setcitestyle{square}
+
+% A useful command for controlling the number of authors per row.
+% The default value of "authorsperrow" is 2.
+\settopmatter{authorsperrow=4}
+
+% end of preamble.
+
+\newcommand{\TODO}[1]{{\color{red}{[TODO: #1]}}}
+\newcommand{\Mark}[1]{{\color{blue}{[Mark: #1]}}}
+\newcommand{\Peng}[1]{{\color{orange}{[Peng: #1]}}}
+\newcommand{\Ziqi}[1]{{\color{purple}{[Ziqi: #1]}}}
+\newcommand{\revised}[1]{{\color{magenta}{#1}}}
+
+% For writing pseudo code
+\newcommand*\DNA{\textsc{dna}}
+\newcommand*\Let[2]{\State #1 $\gets$ #2}
+\algrenewcommand\algorithmicrequire{\textbf{Precondition:}}
+\algrenewcommand\algorithmicensure{\textbf{Postcondition:}}
+
+\makeatletter
+\def\BState{\State\hskip-\ALG@thistlm}
+\makeatother
+
+
+\begin{document}
+
+% Title. 
+% If your title is long, consider \title[short title]{full title} - "short title" will be used for running heads.
+%\title{Understanding Mechanism of 3D Interlocking Assemblies}
+%\title{General Interlocking Assemblies}
+%\title{3D Interlocking: Theory and Practice}
+%\title{Computational Design of General Interlocking Assemblies}
+%\title{Computational Design of General Interlocking Assemblies}
+\title{A Graph-based Model for Understanding Interlocking Assemblies}
+
+% This command defines the author string for running heads.
+%\renewcommand{\shortauthors}{DeJohnette, Rowland-Smith, Badeeri, and Foyt}
+
+
+\author{ZIQI WANG}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\begin{teaserfigure}
+%	\center
+%	\vspace{5mm}
+%	\includegraphics[width=\textwidth]{images/Teaser.png}
+%	\caption{Various interlocking assemblies designed using our framework, from left to right: voxelized puzzle, plate structure, furniture, and frame structure. Our method supports different types of joints as highlighted in the zooms. Please refer to the accompanying video for assembly sequences and the supplementary material for the blocking graphs defining the interlocking configurations.}
+%	\label{fig:teaser}
+%	\vspace*{1.5mm}
+%\end{teaserfigure}
+
+\input{Section0-abstract} 
+
+
+\if 0
+%CCS
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10010147.10010371.10010372</concept_id>
+<concept_desc>Computing methodologies~Rendering</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10010147.10010371.10010372.10010374</concept_id>
+<concept_desc>Computing methodologies~Ray tracing</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Computing methodologies~Rendering}
+\ccsdesc[500]{Computing methodologies~Ray tracing}
+
+%keywords
+\keywords{ray tracing, global illumination, octrees, quadtrees}
+\fi
+
+
+% Processes all of the front-end information and starts the body of the work.
+\maketitle
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\input{section1-introduction}
+%\input{section2-relatedwork}
+%\input{section3-model}
+%\input{section4-approach}
+%\input{section5-results.tex}
+%%\input{supp-results.tex}
+%\input{section6-conclusion.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\bibliographystyle{ACM-Reference-Format}
+%\bibliography{GeneralInterlock}
+\end{document}
+
+

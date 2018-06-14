@@ -1,0 +1,43 @@
+Objects 10
+part_0.obj part_1.obj part_2.obj part_3.obj part_4.obj part_5.obj part_6.obj part_7.obj part_8.obj part_9.obj 
+
+Begin Action 180
+Move id 1 [-1.4051702162,1.14824824456,-0.840846378583]
+End
+
+Begin Action 180
+Move id 6 [-0.458486805327,0.930663288309,1.70987008078]
+End
+
+Begin Action 180
+Move id 5 [-0.113773707236,0.923497074268,1.77036964992]
+End
+
+Begin Action 180
+Move id 3 [-0.878238415776,0.291713405815,1.7730201843]
+End
+
+Begin Action 180
+Move id 2 [-0.00100896793961,1.98019828466,0.280737841104]
+End
+
+Begin Action 180
+Move id 4 [-1.96630686956,-0.278936209723,0.236287717894]
+End
+
+Begin Action 180
+Move id 10 [0.897284158929,-1.52479711407,0.932670841751]
+End
+
+Begin Action 180
+Move id 8 [-1.86169639057,-0.591143011053,0.429693483559]
+End
+
+Begin Action 180
+Move id 7 [0.515289668315,-0.41628313294,1.88711020106]
+End
+
+Begin Action 180
+Move id 9 [0,0,0]
+End
+

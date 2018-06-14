@@ -1,0 +1,31 @@
+Objects 7
+part_1.obj part_2.obj part_3.obj part_4.obj part_5.obj part_6.obj part_7.obj 
+
+Begin Action 130
+Move id 1 [0.15643446504,-0.987688340595,0.0]
+End
+
+Begin Action 130
+Move id 2 [0.15643446504,0.987688340595,-0.0]
+End
+
+Begin Action 130
+Move id 3 [0.260741460169,-0.305289025507,0.91586707652]
+End
+
+Begin Action 130
+Move id 4 [-0.301137610187,0.301548692541,-0.904646077622]
+End
+
+Begin Action 130
+Move id 5 [-0.00025775659253,-0.999999966775,3.51351096161e-06]
+End
+
+Begin Action 130
+Move id 6 [0.000258926469438,0.999999966479,-0.0]
+End
+
+Begin Action 130
+Move id 7 [0.0,0.0,0.0]
+End
+

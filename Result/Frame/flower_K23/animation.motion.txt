@@ -1,0 +1,98 @@
+Objects 23
+part_0.obj part_1.obj part_2.obj part_3.obj part_4.obj part_5.obj part_6.obj part_7.obj part_8.obj part_9.obj part_10.obj part_11.obj part_12.obj part_13.obj part_14.obj part_15.obj part_16.obj part_17.obj part_18.obj part_19.obj part_20.obj part_21.obj part_22.obj 
+Begin Action 130
+Move id 12 [0, 0.4, 0 ]
+End
+
+Begin Action 130
+Move id 13 [0.4, 0, 0 ]
+End
+
+Begin Action 130
+Move id 9 [0.4, 0, 0 ]
+End
+
+Begin Action 130
+Move id 11 [0, 0, 0.4 ]
+End
+
+Begin Action 130
+Move id 10 [0, 0.4, 0 ]
+End
+
+Begin Action 130
+Move id 3 [0, 0.4, 0 ]
+End
+
+Begin Action 130
+Move id 6 [0.4, 0, 0 ]
+End
+
+Begin Action 130
+Move id 1 [0, 0.4, 0 ]
+End
+
+Begin Action 130
+Move id 5 [0.4, 0, 0 ]
+End
+
+Begin Action 130
+Move id 16 [0.4, 0, 0 ]
+End
+
+Begin Action 130
+Move id 18 [0, 0.4, 0 ]
+End
+
+Begin Action 130
+Move id 17 [0.4, 0, 0 ]
+End
+
+Begin Action 130
+Move id 21 [0.4, 0, 0 ]
+End
+
+Begin Action 130
+Move id 8 [-0.4, -0, -0 ]
+End
+
+Begin Action 130
+Move id 4 [0, 0, 0.4 ]
+End
+
+Begin Action 130
+Move id 15 [0, 0, 0.4 ]
+End
+
+Begin Action 130
+Move id 19 [0, 0.4, 0 ]
+End
+
+Begin Action 130
+Move id 20 [-0.4, -0, -0 ]
+End
+
+Begin Action 130
+Move id 22 [0, 0.4, 0 ]
+End
+
+Begin Action 130
+Move id 23 [-0.4, -0, -0 ]
+End
+
+Begin Action 130
+Move id 2 [-0.4, -0, -0 ]
+End
+
+Begin Action 43
+Move id 7 [-0.2, -0, -0 ]
+End
+
+Begin Action 87
+Move id 7 [0, -0, 0.4 ]
+End
+
+Begin Action 130
+Move id 14 [0, 0, 0 ]
+End
+

@@ -1,0 +1,50 @@
+Objects 12
+part_0.obj part_1.obj part_2.obj part_3.obj part_4.obj part_5.obj part_6.obj part_7.obj part_8.obj part_9.obj part_10.obj part_11.obj 
+Begin Action 130
+Move id 6 [0, 1.2, 0 ]
+End
+
+Begin Action 130
+Move id 7 [-1.2, -0, -0 ]
+End
+
+Begin Action 130
+Move id 8 [1.2, 0, 0 ]
+End
+
+Begin Action 130
+Move id 12 [0, 1.2, 0 ]
+End
+
+Begin Action 130
+Move id 4 [1.2, 0, 0 ]
+End
+
+Begin Action 130
+Move id 9 [-1.2, -0, -0 ]
+End
+
+Begin Action 130
+Move id 1 [0, 1.2, 0 ]
+End
+
+Begin Action 130
+Move id 11 [0, 1.2, 0 ]
+End
+
+Begin Action 130
+Move id 2 [0, 1.2, 0 ]
+End
+
+Begin Action 130
+Move id 5 [1.2, 0, 0 ]
+End
+
+Begin Action 130
+Move id 3 [-0, -0, -1.2 ]
+End
+
+Begin Action 130
+Move id 10 [0, 0, 0 ]
+End
+

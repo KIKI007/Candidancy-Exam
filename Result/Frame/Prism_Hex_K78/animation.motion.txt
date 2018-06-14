@@ -1,0 +1,314 @@
+Objects 78
+part_0.obj part_1.obj part_2.obj part_3.obj part_4.obj part_5.obj part_6.obj part_7.obj part_8.obj part_9.obj part_10.obj part_11.obj part_12.obj part_13.obj part_14.obj part_15.obj part_16.obj part_17.obj part_18.obj part_19.obj part_20.obj part_21.obj part_22.obj part_23.obj part_24.obj part_25.obj part_26.obj part_27.obj part_28.obj part_29.obj part_30.obj part_31.obj part_32.obj part_33.obj part_34.obj part_35.obj part_36.obj part_37.obj part_38.obj part_39.obj part_40.obj part_41.obj part_42.obj part_43.obj part_44.obj part_45.obj part_46.obj part_47.obj part_48.obj part_49.obj part_50.obj part_51.obj part_52.obj part_53.obj part_54.obj part_55.obj part_56.obj part_57.obj part_58.obj part_59.obj part_60.obj part_61.obj part_62.obj part_63.obj part_64.obj part_65.obj part_66.obj part_67.obj part_68.obj part_69.obj part_70.obj part_71.obj part_72.obj part_73.obj part_74.obj part_75.obj part_76.obj part_77.obj 
+Begin Action 60
+Move id 10 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 45 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 47 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 38 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 48 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 37 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 44 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 66 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 17 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 64 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 76 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 54 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 19 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 58 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 18 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 75 [-0, -0, -1 ]
+End
+
+Begin Action 60
+Move id 16 [0, 0, 1 ]
+End
+
+Begin Action 60
+Move id 62 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 59 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 77 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 51 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 21 [0, 0, 1 ]
+End
+
+Begin Action 60
+Move id 55 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 73 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 42 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 74 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 20 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 41 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 36 [-0, -0, -1 ]
+End
+
+Begin Action 60
+Move id 78 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 2 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 5 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 7 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 13 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 25 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 32 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 34 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 4 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 8 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 9 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 11 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 30 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 31 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 27 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 35 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 26 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 24 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 12 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 56 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 14 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 67 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 15 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 49 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 65 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 6 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 23 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 39 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 60 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 28 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 72 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 29 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 40 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 43 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 46 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 61 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 22 [-0, -1, -0 ]
+End
+
+Begin Action 60
+Move id 57 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 68 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 71 [-0, -1, -0 ]
+End
+
+Begin Action 60
+Move id 70 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 53 [-0, -1, -0 ]
+End
+
+Begin Action 60
+Move id 1 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 3 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 52 [1, 0, 0 ]
+End
+
+Begin Action 60
+Move id 63 [-0, -0, -1 ]
+End
+
+Begin Action 60
+Move id 33 [0, 1, 0 ]
+End
+
+Begin Action 60
+Move id 50 [-1, -0, -0 ]
+End
+
+Begin Action 60
+Move id 69 [1, 0, 0 ]
+End
+

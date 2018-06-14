@@ -1,0 +1,45 @@
+
+# List of object files with id starts from 1
+Objects 14
+grid1_piece1.obj grid1_piece2.obj grid1_piece3.obj grid1_piece4.obj grid1_piece5.obj grid1_piece6.obj grid2_piece1.obj grid2_piece2.obj grid2_piece3.obj grid2_piece4.obj grid2_piece5.obj grid2_piece6.obj grid3_piece1.obj grid3_piece2.obj 
+
+# List of actions during the animation
+Begin Action 130
+Move id 1 [0.00, 1.37, 0.00]
+End
+Begin Action 130
+Move id 2 [0.00, 0.00, 1.37]
+End
+Begin Action 130
+Move id 4 [0.00, 1.37, 0.00]
+End
+Begin Action 130
+Move id 3 [1.37, 0.00, 0.00]
+End
+Begin Action 130
+Move id 11 [0.00, 0.00, 1.37]
+End
+Begin Action 130
+Move id 5 [1.37, 0.00, 0.00]
+End
+Begin Action 130
+Move id 13 [0.00, 0.00, 1.37]
+End
+Begin Action 130
+Move id 6 [1.37, 0.00, 0.00]
+End
+Begin Action 130
+Move id 7 [1.37, 0.00, 0.00]
+End
+Begin Action 130
+Move id 8 [0.00, -1.37, 0.00]
+End
+Begin Action 130
+Move id 10 [0.00, 0.00, -1.37]
+End
+Begin Action 130
+Move id 9 [-1.37, 0.00, 0.00]
+End
+Begin Action 130
+Move id 12 [0.00, -1.37, 0.00]
+End

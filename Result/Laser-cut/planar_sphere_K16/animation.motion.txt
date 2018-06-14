@@ -1,0 +1,67 @@
+Objects 16
+part_0.obj part_1.obj part_2.obj part_3.obj part_4.obj part_5.obj part_6.obj part_7.obj part_8.obj part_9.obj part_10.obj part_11.obj part_12.obj part_13.obj part_14.obj part_15.obj 
+
+Begin Action 180
+Move id 7 [1.71952748409,0.691637969333,-0.751573117416]
+End
+
+Begin Action 180
+Move id 8 [0.0786761807305,1.3532670295,-1.4705367746]
+End
+
+Begin Action 180
+Move id 10 [1.26303755795,0.189522489188,-1.53909627811]
+End
+
+Begin Action 180
+Move id 2 [1.14882558645,-0.770041085076,-1.44472713659]
+End
+
+Begin Action 180
+Move id 3 [-1.69685228411,-1.05385322895,0.100427574625]
+End
+
+Begin Action 180
+Move id 4 [-0.0289656077354,-1.97652078479,-0.304181822049]
+End
+
+Begin Action 180
+Move id 1 [1.34957204844,-1.20464806732,0.852923396312]
+End
+
+Begin Action 180
+Move id 15 [-1.08161323355,-1.65600958738,0.296217925693]
+End
+
+Begin Action 180
+Move id 12 [-0.19800530904,-1.64771025316,1.11617418857]
+End
+
+Begin Action 180
+Move id 9 [0.360842170977,0.0355254866925,1.96685812082]
+End
+
+Begin Action 180
+Move id 6 [-0.109981774863,0.509585138412,1.93086172366]
+End
+
+Begin Action 180
+Move id 16 [1.6923336891,0.379625464138,0.99593734326]
+End
+
+Begin Action 180
+Move id 5 [0.00106557745368,0.51728951148,1.9319447264]
+End
+
+Begin Action 180
+Move id 14 [-0.359989386417,-0.0788684247015,1.96575365019]
+End
+
+Begin Action 180
+Move id 13 [-0.553582462971,0.499351444015,1.85585414083]
+End
+
+Begin Action 180
+Move id 11 [0,0,0]
+End
+

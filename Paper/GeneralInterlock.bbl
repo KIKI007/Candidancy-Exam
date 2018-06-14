@@ -1,0 +1,647 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Agrawala, Phan, Heiser, Haymaker, Klingner,
+  Hanrahan, and Tversky}{Agrawala et~al\mbox{.}}{2003}]%
+        {Agrawala-2003-AssemblyInstructions}
+\bibfield{author}{\bibinfo{person}{Maneesh Agrawala}, \bibinfo{person}{Doantam
+  Phan}, \bibinfo{person}{Julie Heiser}, \bibinfo{person}{John Haymaker},
+  \bibinfo{person}{Jeff Klingner}, \bibinfo{person}{Pat Hanrahan}, {and}
+  \bibinfo{person}{Barbara Tversky}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Designing Effective Step-By-Step Assembly
+  Instructions}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph. (SIGGRAPH)\/}}
+  \bibinfo{volume}{22}, \bibinfo{number}{3} (\bibinfo{year}{2003}),
+  \bibinfo{pages}{828--837}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Attene}{Attene}{2015}]%
+        {Attene-2015-ShapesInABox}
+\bibfield{author}{\bibinfo{person}{Marco Attene}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Shapes In a Box: Disassembling {3D} Objects for
+  Efficient Packing and Fabrication}.
+\newblock \bibinfo{journal}{{\em Computer Graphics Forum\/}}
+  \bibinfo{volume}{34}, \bibinfo{number}{8} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{64--76}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chen and Sass}{Chen and Sass}{2015}]%
+        {Chen-2015-FreshPressModeler}
+\bibfield{author}{\bibinfo{person}{Lujie Chen} {and} \bibinfo{person}{Lawrence
+  Sass}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{Fresh Press Modeler}: A generative system for
+  physically based low fidelity prototyping}.
+\newblock \bibinfo{journal}{{\em Computers \& Graphics\/}}
+  \bibinfo{volume}{54} (\bibinfo{year}{2015}), \bibinfo{pages}{157--165}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chen, Zhang, Lin, Hu, Lu, Huang, Benes,
+  Cohen-Or, and Chen}{Chen et~al\mbox{.}}{2015}]%
+        {Chen-2015-Dapper}
+\bibfield{author}{\bibinfo{person}{Xuelin Chen}, \bibinfo{person}{Hao Zhang},
+  \bibinfo{person}{Jinjie Lin}, \bibinfo{person}{Ruizhen Hu},
+  \bibinfo{person}{Lin Lu}, \bibinfo{person}{Qixing Huang},
+  \bibinfo{person}{Bedrich Benes}, \bibinfo{person}{Daniel Cohen-Or}, {and}
+  \bibinfo{person}{Baoquan Chen}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Dapper: Decompose-and-pack for {3D} Printing}.
+\newblock \bibinfo{journal}{{\em ACM Trans. Graph.\/}} \bibinfo{volume}{34},
+  \bibinfo{number}{6} (\bibinfo{year}{2015}), \bibinfo{pages}{213:1--213:12}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cignoni, Pietroni, Malomo, and
+  Scopigno}{Cignoni et~al\mbox{.}}{2014}]%
+        {Cignoni-2014-MeshJoinery}
+\bibfield{author}{\bibinfo{person}{Paolo Cignoni}, \bibinfo{person}{Nico
+  Pietroni}, \bibinfo{person}{Luigi Malomo}, {and} \bibinfo{person}{Roberto
+  Scopigno}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Field-aligned Mesh Joinery}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph.\/}} \bibinfo{volume}{33},
+  \bibinfo{number}{1} (\bibinfo{year}{2014}), \bibinfo{pages}{11:1--11:12}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{de~Goes, Alliez, Owhadi, and Desbrun}{de~Goes
+  et~al\mbox{.}}{2013}]%
+        {deGoes-2013-Equilibrium}
+\bibfield{author}{\bibinfo{person}{Fernando de Goes}, \bibinfo{person}{Pierre
+  Alliez}, \bibinfo{person}{Houman Owhadi}, {and} \bibinfo{person}{Mathieu
+  Desbrun}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{On the Equilibrium of Simplicial Masonry
+  Structures}.
+\newblock \bibinfo{journal}{{\em ACM Trans. Graph. (SIGGRAPH)\/}}
+  \bibinfo{volume}{32}, \bibinfo{number}{4} (\bibinfo{year}{2013}).
+\newblock
+\newblock
+\shownote{Article 93.}
+
+
+\bibitem[\protect\citeauthoryear{Deepak}{Deepak}{2012}]%
+        {Deepak-2012-InterlockBlock}
+\bibfield{author}{\bibinfo{person}{Bansal Deepak}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Sustainable Dry Interlocking Block Masonry
+  Construction}. In \bibinfo{booktitle}{{\em 15th International Brick and Block
+  Masonry Conference}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Deuss, Panozzo, Whiting, Liu, Block,
+  Sorkine-Hornung, and Pauly}{Deuss et~al\mbox{.}}{2014}]%
+        {Deuss-2014-AssembleSelfSupport}
+\bibfield{author}{\bibinfo{person}{Mario Deuss}, \bibinfo{person}{Daniele
+  Panozzo}, \bibinfo{person}{Emily Whiting}, \bibinfo{person}{Yang Liu},
+  \bibinfo{person}{Philippe Block}, \bibinfo{person}{Olga Sorkine-Hornung},
+  {and} \bibinfo{person}{Mark Pauly}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Assembling Self-Supporting Structures}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph. (SIGGRAPH Asia)\/}}
+  \bibinfo{volume}{33}, \bibinfo{number}{6} (\bibinfo{year}{2014}).
+\newblock
+\newblock
+\shownote{Article No. 214.}
+
+
+\bibitem[\protect\citeauthoryear{Duncan, Yu, and Yeung}{Duncan
+  et~al\mbox{.}}{2016}]%
+        {Duncan-2016-Hands-OnAssembly}
+\bibfield{author}{\bibinfo{person}{Noah Duncan}, \bibinfo{person}{Lap-Fai Yu},
+  {and} \bibinfo{person}{Sai-Kit Yeung}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Interchangeable Components for Hands-On Assembly
+  Based Modelling}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph. (SIGGRAPH Asia)\/}}
+  \bibinfo{volume}{35}, \bibinfo{number}{6} (\bibinfo{year}{2016}).
+\newblock
+\newblock
+\shownote{Article No. 234.}
+
+
+\bibitem[\protect\citeauthoryear{Frick, Mele, and Block}{Frick
+  et~al\mbox{.}}{2015}]%
+        {Frick-2015-Self-SupportPuzzle}
+\bibfield{author}{\bibinfo{person}{Ursula Frick}, \bibinfo{person}{Tom~Van
+  Mele}, {and} \bibinfo{person}{Philippe Block}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Decomposing Three-Dimensional Shapes into
+  Self-supporting, Discrete-Element Assemblies}. In \bibinfo{booktitle}{{\em
+  Modelling Behaviour}}. \bibinfo{pages}{187--201}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fu, Song, Yan, Yang, Jayaraman, and
+  Cohen-Or}{Fu et~al\mbox{.}}{2015}]%
+        {Fu-2015-Furniture}
+\bibfield{author}{\bibinfo{person}{Chi-Wing Fu}, \bibinfo{person}{Peng Song},
+  \bibinfo{person}{Xiaoqi Yan}, \bibinfo{person}{Lee~Wei Yang},
+  \bibinfo{person}{Pradeep~Kumar Jayaraman}, {and} \bibinfo{person}{Daniel
+  Cohen-Or}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Computational Interlocking Furniture Assembly}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph. (SIGGRAPH)\/}}
+  \bibinfo{volume}{34}, \bibinfo{number}{4} (\bibinfo{year}{2015}).
+\newblock
+\newblock
+\shownote{Article No. 91.}
+
+
+\bibitem[\protect\citeauthoryear{Ghandi and Masehian}{Ghandi and
+  Masehian}{2015}]%
+        {Ghandi-2015-AssemblyPlanningReview}
+\bibfield{author}{\bibinfo{person}{Somay{\'e} Ghandi} {and}
+  \bibinfo{person}{Ellips Masehian}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Review and taxonomies of assembly and disassembly
+  path planning problems and approaches}.
+\newblock \bibinfo{journal}{{\em Computer-Aided Design\/}}
+  \bibinfo{volume}{67-68} (\bibinfo{year}{2015}), \bibinfo{pages}{58--86}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Guo, Yan, ErLi, Dong, Wonka, and Zhang}{Guo
+  et~al\mbox{.}}{2013}]%
+        {Guo-2013-IllustrateDisassembly}
+\bibfield{author}{\bibinfo{person}{Jianwei Guo}, \bibinfo{person}{Dong-Ming
+  Yan}, \bibinfo{person}{ErLi}, \bibinfo{person}{Weiming Dong},
+  \bibinfo{person}{Peter Wonka}, {and} \bibinfo{person}{Xiaopeng Zhang}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Illustrating the disassembly of {3D} models}.
+\newblock \bibinfo{journal}{{\em Computers \& Graphics\/}}
+  \bibinfo{volume}{37}, \bibinfo{number}{6} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{574--581}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hao, Fang, and Williams}{Hao
+  et~al\mbox{.}}{2011}]%
+        {Hao-2011-PartitionModels}
+\bibfield{author}{\bibinfo{person}{Jingbin Hao}, \bibinfo{person}{Liang Fang},
+  {and} \bibinfo{person}{Robert~E. Williams}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{An Efficient Curvature-based Partitioning of
+  Large-scale {STL} Models}.
+\newblock \bibinfo{journal}{{\em Rapid Prototyping Journal\/}}
+  \bibinfo{volume}{17}, \bibinfo{number}{2} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{116--127}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hildebrand, Bickel, and Alexa}{Hildebrand
+  et~al\mbox{.}}{2012}]%
+        {Hildebrand-2012-crdbrd}
+\bibfield{author}{\bibinfo{person}{Kristian Hildebrand}, \bibinfo{person}{Bernd
+  Bickel}, {and} \bibinfo{person}{Marc Alexa}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{crdbrd: Shape Fabrication by Sliding Planar
+  Slices}.
+\newblock \bibinfo{journal}{{\em Comp. Graph. Forum\/}} \bibinfo{volume}{31},
+  \bibinfo{number}{2} (\bibinfo{year}{2012}), \bibinfo{pages}{583--592}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hu, Li, Zhang, and Cohen-Or}{Hu
+  et~al\mbox{.}}{2014}]%
+        {Hu-2014-Pyramidal}
+\bibfield{author}{\bibinfo{person}{Ruizhen Hu}, \bibinfo{person}{Honghua Li},
+  \bibinfo{person}{Hao Zhang}, {and} \bibinfo{person}{Daniel Cohen-Or}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Approximate Pyramidal Shape Decomposition}.
+\newblock \bibinfo{journal}{{\em ACM Trans. Graph.\/}} \bibinfo{volume}{33},
+  \bibinfo{number}{6} (\bibinfo{year}{2014}), \bibinfo{pages}{213:1--213:12}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Koo, Hergel, Lefebvre, and Mitra}{Koo
+  et~al\mbox{.}}{2017}]%
+        {Koo-2017-ZeroWaste}
+\bibfield{author}{\bibinfo{person}{Bongjin Koo}, \bibinfo{person}{Jean Hergel},
+  \bibinfo{person}{Sylvain Lefebvre}, {and} \bibinfo{person}{Niloy~J. Mitra}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Towards Zero-Waste Furniture Design}.
+\newblock \bibinfo{journal}{{\em IEEE Trans. Vis. \& Comp. Graphics\/}}
+  \bibinfo{volume}{23}, \bibinfo{number}{12} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{2627--2640}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lau, Ohgawara, Mitani, and Igarashi}{Lau
+  et~al\mbox{.}}{2011}]%
+        {Lau-2011-Furniture}
+\bibfield{author}{\bibinfo{person}{Manfred Lau}, \bibinfo{person}{Akira
+  Ohgawara}, \bibinfo{person}{Jun Mitani}, {and} \bibinfo{person}{Takeo
+  Igarashi}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Converting {3D} furniture models to fabricatable
+  parts and connectors}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph. (SIGGRAPH)\/}}
+  \bibinfo{volume}{30}, \bibinfo{number}{4} (\bibinfo{year}{2011}).
+\newblock
+\newblock
+\shownote{Article No. 85.}
+
+
+\bibitem[\protect\citeauthoryear{Li, Agrawala, Curless, and Salesin}{Li
+  et~al\mbox{.}}{2008}]%
+        {Li-2008-ExplodedView}
+\bibfield{author}{\bibinfo{person}{Wilmot Li}, \bibinfo{person}{Maneesh
+  Agrawala}, \bibinfo{person}{Brian Curless}, {and} \bibinfo{person}{David
+  Salesin}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Automated Generation of Interactive 3D Exploded
+  View Diagrams}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph. (SIGGRAPH)\/}}
+  \bibinfo{volume}{27}, \bibinfo{number}{3} (\bibinfo{year}{2008}).
+\newblock
+\newblock
+\shownote{Article No. 101.}
+
+
+\bibitem[\protect\citeauthoryear{Liu, Hao, Snyder, Wang, and Guo}{Liu
+  et~al\mbox{.}}{2013}]%
+        {Liu-2013-RegularTriangulation}
+\bibfield{author}{\bibinfo{person}{Yang Liu}, \bibinfo{person}{Pan Hao},
+  \bibinfo{person}{John Snyder}, \bibinfo{person}{Wenping Wang}, {and}
+  \bibinfo{person}{Baining Guo}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Computing Self-Supporting Surfaces by Regular
+  Triangulation}.
+\newblock \bibinfo{journal}{{\em ACM Trans. Graph. (SIGGRAPH)\/}}
+  \bibinfo{volume}{32}, \bibinfo{number}{4} (\bibinfo{year}{2013}).
+\newblock
+\newblock
+\shownote{Article 92.}
+
+
+\bibitem[\protect\citeauthoryear{Luo, Baran, Rusinkiewicz, and Matusik}{Luo
+  et~al\mbox{.}}{2012}]%
+        {Luo-2012-Chopper}
+\bibfield{author}{\bibinfo{person}{Linjie Luo}, \bibinfo{person}{Ilya Baran},
+  \bibinfo{person}{Szymon Rusinkiewicz}, {and} \bibinfo{person}{Wojciech
+  Matusik}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Chopper: Partitioning Models into {3D}-printable
+  Parts}.
+\newblock \bibinfo{journal}{{\em ACM Trans. Graph.\/}} \bibinfo{volume}{31},
+  \bibinfo{number}{6} (\bibinfo{year}{2012}), \bibinfo{pages}{129:1--129:9}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{McCrae, Singh, and Mitra}{McCrae
+  et~al\mbox{.}}{2011}]%
+        {McCrae-2011-Slices}
+\bibfield{author}{\bibinfo{person}{James McCrae}, \bibinfo{person}{Karan
+  Singh}, {and} \bibinfo{person}{Niloy~J. Mitra}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Slices: A Shape-proxy Based on Planar Sections}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph.\/}} \bibinfo{volume}{30},
+  \bibinfo{number}{6} (\bibinfo{year}{2011}), \bibinfo{pages}{168:1--168:12}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Miki, Igarashi, and Block}{Miki
+  et~al\mbox{.}}{2015}]%
+        {Miki-2015-AiryStressFunctions}
+\bibfield{author}{\bibinfo{person}{Masaaki Miki}, \bibinfo{person}{Takeo
+  Igarashi}, {and} \bibinfo{person}{Philippe Block}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Parametric Self-supporting Surfaces via Direct
+  Computation of Airy Stress Functions}.
+\newblock \bibinfo{journal}{{\em ACM Trans. Graph. (SIGGRAPH)\/}}
+  \bibinfo{volume}{34}, \bibinfo{number}{4} (\bibinfo{year}{2015}).
+\newblock
+\newblock
+\shownote{Article 89.}
+
+
+\bibitem[\protect\citeauthoryear{Panozzo, Block, and Sorkine-Hornung}{Panozzo
+  et~al\mbox{.}}{2013}]%
+        {Panozzo-2013-SelfSupportMasonry}
+\bibfield{author}{\bibinfo{person}{Daniele Panozzo}, \bibinfo{person}{Philippe
+  Block}, {and} \bibinfo{person}{Olga Sorkine-Hornung}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Designing Unreinforced Masonry Models}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph. (SIGGRAPH)\/}}
+  \bibinfo{volume}{32}, \bibinfo{number}{4} (\bibinfo{year}{2013}).
+\newblock
+\newblock
+\shownote{Article No. 91.}
+
+
+\bibitem[\protect\citeauthoryear{Richter and Alexa}{Richter and Alexa}{2015}]%
+        {Richter-2015-BeamMeshes}
+\bibfield{author}{\bibinfo{person}{Ronald Richter} {and} \bibinfo{person}{Marc
+  Alexa}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Beam meshes}.
+\newblock \bibinfo{journal}{{\em Computers \& Graphics\/}}
+  \bibinfo{volume}{53} (\bibinfo{year}{2015}), \bibinfo{pages}{28--36}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rippmann, Mele, Popescu, Augustynowicz,
+  Echenagucia, Barentin, Frick, and Block}{Rippmann et~al\mbox{.}}{2016}]%
+        {Rippmann-2016-ArmadilloVault}
+\bibfield{author}{\bibinfo{person}{Matthias Rippmann}, \bibinfo{person}{Tom~Van
+  Mele}, \bibinfo{person}{Mariana Popescu}, \bibinfo{person}{Edyta
+  Augustynowicz}, \bibinfo{person}{Tom{\'a}s~M{\'e}ndez Echenagucia},
+  \bibinfo{person}{Cristi{\'a}n~Calvo Barentin}, \bibinfo{person}{Ursula
+  Frick}, {and} \bibinfo{person}{Philippe Block}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{The Armadillo Vault: Computational design and
+  digital fabrication of a freeform stone shell}. In \bibinfo{booktitle}{{\em
+  Advances in Architectural Geometry}}. \bibinfo{pages}{344--363}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Schwartzburg and Pauly}{Schwartzburg and
+  Pauly}{2013}]%
+        {Schwartzburg-2013-PlanarPieces}
+\bibfield{author}{\bibinfo{person}{Yuliy Schwartzburg} {and}
+  \bibinfo{person}{Mark Pauly}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Fabrication-aware Design with Intersecting Planar
+  Pieces}.
+\newblock \bibinfo{journal}{{\em Comp. Graph. Forum\/}} \bibinfo{volume}{32},
+  \bibinfo{number}{2} (\bibinfo{year}{2013}), \bibinfo{pages}{317--326}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shao, Li, Rong, Zheng, and Zhou}{Shao
+  et~al\mbox{.}}{2016}]%
+        {Shao-2016-Furniture}
+\bibfield{author}{\bibinfo{person}{Tianjia Shao}, \bibinfo{person}{Dongping
+  Li}, \bibinfo{person}{Yuliang Rong}, \bibinfo{person}{Changxi Zheng}, {and}
+  \bibinfo{person}{Kun Zhou}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Dynamic Furniture Modeling Through Assembly
+  Instructions}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph. (SIGGRAPH Asia)\/}}
+  \bibinfo{volume}{35}, \bibinfo{number}{6} (\bibinfo{year}{2016}).
+\newblock
+\newblock
+\shownote{Article No. 172.}
+
+
+\bibitem[\protect\citeauthoryear{Skouras, Coros, Grinspun, and
+  Thomaszewski}{Skouras et~al\mbox{.}}{2015}]%
+        {Skouras-2015-InterlockElement}
+\bibfield{author}{\bibinfo{person}{M{\'e}lina Skouras},
+  \bibinfo{person}{Stelian Coros}, \bibinfo{person}{Eitan Grinspun}, {and}
+  \bibinfo{person}{Bernhard Thomaszewski}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Interactive Surface Design with Interlocking
+  Elements}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph. (SIGGRAPH Asia)\/}}
+  \bibinfo{volume}{34}, \bibinfo{number}{6} (\bibinfo{year}{2015}).
+\newblock
+\newblock
+\shownote{Article No. 224.}
+
+
+\bibitem[\protect\citeauthoryear{Song, Deng, Wang, Dong, Li, Fu, and Liu}{Song
+  et~al\mbox{.}}{2016}]%
+        {Song-2016-CoFiFab}
+\bibfield{author}{\bibinfo{person}{Peng Song}, \bibinfo{person}{Bailin Deng},
+  \bibinfo{person}{Ziqi Wang}, \bibinfo{person}{Zhichao Dong},
+  \bibinfo{person}{Wei Li}, \bibinfo{person}{Chi-Wing Fu}, {and}
+  \bibinfo{person}{Ligang Liu}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{CofiFab}: Coarse-to-Fine Fabrication of Large {3D}
+  Objects}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph. (SIGGRAPH)\/}}
+  \bibinfo{volume}{35}, \bibinfo{number}{4} (\bibinfo{year}{2016}).
+\newblock
+\newblock
+\shownote{Article No. 45.}
+
+
+\bibitem[\protect\citeauthoryear{Song, Fu, and Cohen-Or}{Song
+  et~al\mbox{.}}{2012}]%
+        {Song-2012-InterCubes}
+\bibfield{author}{\bibinfo{person}{Peng Song}, \bibinfo{person}{Chi-Wing Fu},
+  {and} \bibinfo{person}{Daniel Cohen-Or}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Recursive Interlocking Puzzles}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph. (SIGGRAPH Asia)\/}}
+  \bibinfo{volume}{31}, \bibinfo{number}{6} (\bibinfo{year}{2012}).
+\newblock
+\newblock
+\shownote{Article No. 128.}
+
+
+\bibitem[\protect\citeauthoryear{Song, Fu, Jin, Xu, Liu, Heng, and
+  Cohen-Or}{Song et~al\mbox{.}}{2017}]%
+        {Song-2017-ReconfigInterlock}
+\bibfield{author}{\bibinfo{person}{Peng Song}, \bibinfo{person}{Chi-Wing Fu},
+  \bibinfo{person}{Yueming Jin}, \bibinfo{person}{Hongfei Xu},
+  \bibinfo{person}{Ligang Liu}, \bibinfo{person}{Pheng-Ann Heng}, {and}
+  \bibinfo{person}{Daniel Cohen-Or}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Reconfigurable Interlocking Furniture}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph. (SIGGRAPH Asia)\/}}
+  \bibinfo{volume}{36}, \bibinfo{number}{6} (\bibinfo{year}{2017}).
+\newblock
+\newblock
+\shownote{Article No. 174.}
+
+
+\bibitem[\protect\citeauthoryear{Song, Fu, Liu, and Fu}{Song
+  et~al\mbox{.}}{2015}]%
+        {Song-2015-Interlock}
+\bibfield{author}{\bibinfo{person}{Peng Song}, \bibinfo{person}{Zhongqi Fu},
+  \bibinfo{person}{Ligang Liu}, {and} \bibinfo{person}{Chi-Wing Fu}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Printing {3D} Objects with Interlocking Parts}.
+\newblock \bibinfo{journal}{{\em Comp. Aided Geom. Des.\/}}
+  \bibinfo{volume}{35-36} (\bibinfo{year}{2015}), \bibinfo{pages}{137--148}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Stegmann}{Stegmann}{2018}]%
+        {Stegmann-2018-PuzzlePage}
+\bibfield{author}{\bibinfo{person}{Rob Stegmann}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Rob's Puzzle Page - Interlocking Puzzles}.
+\newblock   (\bibinfo{year}{2018}).
+\newblock
+\newblock
+\shownote{{\scriptsize \url{http://www.robspuzzlepage.com/interlocking.htm}}.}
+
+
+\bibitem[\protect\citeauthoryear{Tai}{Tai}{2012}]%
+        {Tai-2012-InterlockRF}
+\bibfield{author}{\bibinfo{person}{Alan Song-Ching Tai}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock {\em \bibinfo{title}{Design For Assembly: A Computational Approach to
+  Construct Interlocking Wooden Frames}}.
+\newblock \bibinfo{thesistype}{Ph.D. Dissertation}.
+  \bibinfo{school}{Massachusetts Institute of Technology}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tang, Sun, Gomes, Wallner, and Pottmann}{Tang
+  et~al\mbox{.}}{2014}]%
+        {Tang-2014-PolyhedralMesh}
+\bibfield{author}{\bibinfo{person}{Chengcheng Tang}, \bibinfo{person}{Xiang
+  Sun}, \bibinfo{person}{Alexandra Gomes}, \bibinfo{person}{Johannes Wallner},
+  {and} \bibinfo{person}{Helmut Pottmann}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Form-finding with polyhedral meshes made simple}.
+\newblock \bibinfo{journal}{{\em ACM Trans. Graph. (SIGGRAPH)\/}}
+  \bibinfo{volume}{33}, \bibinfo{number}{4} (\bibinfo{year}{2014}).
+\newblock
+\newblock
+\shownote{Article 70.}
+
+
+\bibitem[\protect\citeauthoryear{Tarjan}{Tarjan}{1972}]%
+        {Tarjan-1972-SCC}
+\bibfield{author}{\bibinfo{person}{Robert Tarjan}.}
+  \bibinfo{year}{1972}\natexlab{}.
+\newblock \showarticletitle{Depth-first search and linear graph algorithms}.
+\newblock \bibinfo{journal}{{\it SIAM J. Comput.}} \bibinfo{volume}{1},
+  \bibinfo{number}{2} (\bibinfo{year}{1972}), \bibinfo{pages}{146--160}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vanek, Galicia, Benes, M{\v{e}}ch, Carr,
+  Stava, and Miller}{Vanek et~al\mbox{.}}{2014}]%
+        {Vanek-2014-PackMerger}
+\bibfield{author}{\bibinfo{person}{J. Vanek}, \bibinfo{person}{J.~A.~Garcia
+  Galicia}, \bibinfo{person}{B. Benes}, \bibinfo{person}{R. M{\v{e}}ch},
+  \bibinfo{person}{N. Carr}, \bibinfo{person}{O. Stava}, {and}
+  \bibinfo{person}{G.~S. Miller}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{PackMerger}: A {3D} Print Volume Optimizer}.
+\newblock \bibinfo{journal}{{\em Computer Graphics Forum\/}}
+  \bibinfo{volume}{33}, \bibinfo{number}{6} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{322--332}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vouga, H{\"o}binger, Wallner, and
+  Pottmann}{Vouga et~al\mbox{.}}{2012}]%
+        {Vouga-2012-Self-SupportSurface}
+\bibfield{author}{\bibinfo{person}{E. Vouga}, \bibinfo{person}{M.
+  H{\"o}binger}, \bibinfo{person}{J. Wallner}, {and} \bibinfo{person}{H.
+  Pottmann}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Design of self-supporting surfaces}.
+\newblock \bibinfo{journal}{{\em ACM Trans. Graph. (SIGGRAPH)\/}}
+  \bibinfo{volume}{31}, \bibinfo{number}{4} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{Article 87}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Whiting, Ochsendorf, and Durand}{Whiting
+  et~al\mbox{.}}{2009}]%
+        {Whiting-2009-ModelMasonry}
+\bibfield{author}{\bibinfo{person}{Emily Whiting}, \bibinfo{person}{John
+  Ochsendorf}, {and} \bibinfo{person}{Fr{\'e}do Durand}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Procedural Modeling of Structurally-Sound Masonry
+  Buildings}.
+\newblock \bibinfo{journal}{{\em ACM Trans. Graph. (SIGGRAPH Asia)\/}}
+  \bibinfo{volume}{28}, \bibinfo{number}{5} (\bibinfo{year}{2009}).
+\newblock
+\newblock
+\shownote{Article 112.}
+
+
+\bibitem[\protect\citeauthoryear{Wilson}{Wilson}{1992}]%
+        {Wilson-1992-AssemblyPlanning}
+\bibfield{author}{\bibinfo{person}{Randall~H. Wilson}.}
+  \bibinfo{year}{1992}\natexlab{}.
+\newblock {\em \bibinfo{title}{On Geometric Assembly Planning}}.
+\newblock \bibinfo{thesistype}{Ph.D. Dissertation}. \bibinfo{school}{Stanford
+  University}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wilson and Latombe}{Wilson and
+  Latombe}{1994}]%
+        {Wilson-1994-GeometricReasoning}
+\bibfield{author}{\bibinfo{person}{Randall~H. Wilson} {and}
+  \bibinfo{person}{Jean-Claude Latombe}.} \bibinfo{year}{1994}\natexlab{}.
+\newblock \showarticletitle{Geometric Reasoning About Mechanical Assembly}.
+\newblock \bibinfo{journal}{{\em Artificial Intelligence\/}}
+  \bibinfo{volume}{71}, \bibinfo{number}{2} (\bibinfo{year}{1994}),
+  \bibinfo{pages}{371--396}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Xin, Lai, Fu, Wong, He, and Cohen-Or}{Xin
+  et~al\mbox{.}}{2011}]%
+        {Xin-2011-BurrPuzzles}
+\bibfield{author}{\bibinfo{person}{Shi-Qing Xin}, \bibinfo{person}{Chi-Fu Lai},
+  \bibinfo{person}{Chi-Wing Fu}, \bibinfo{person}{Tien-Tsin Wong},
+  \bibinfo{person}{Ying He}, {and} \bibinfo{person}{Daniel Cohen-Or}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Making Burr Puzzles from {3D} Models}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph. (SIGGRAPH)\/}}
+  \bibinfo{volume}{30}, \bibinfo{number}{4} (\bibinfo{year}{2011}).
+\newblock
+\newblock
+\shownote{Article No. 97.}
+
+
+\bibitem[\protect\citeauthoryear{Yao, Kaufman, Gingold, and Agrawala}{Yao
+  et~al\mbox{.}}{2017b}]%
+        {Yao-2017-DecorativeJoinery}
+\bibfield{author}{\bibinfo{person}{Jiaxian Yao}, \bibinfo{person}{Danny~M.
+  Kaufman}, \bibinfo{person}{Yotam Gingold}, {and} \bibinfo{person}{Maneesh
+  Agrawala}.} \bibinfo{year}{2017}\natexlab{b}.
+\newblock \showarticletitle{Interactive Design and Stability Analysis of
+  Decorative Joinery for Furniture}.
+\newblock \bibinfo{journal}{{\em ACM Trans. on Graph.\/}} \bibinfo{volume}{36},
+  \bibinfo{number}{2} (\bibinfo{year}{2017}).
+\newblock
+\newblock
+\shownote{Article No. 20.}
+
+
+\bibitem[\protect\citeauthoryear{Yao, Chen, Xu, and Wang}{Yao
+  et~al\mbox{.}}{2017a}]%
+        {Yao-2017-InterlockShell}
+\bibfield{author}{\bibinfo{person}{Miaojun Yao}, \bibinfo{person}{Zhili Chen},
+  \bibinfo{person}{Weiwei Xu}, {and} \bibinfo{person}{Huamin Wang}.}
+  \bibinfo{year}{2017}\natexlab{a}.
+\newblock \showarticletitle{Modeling, Evaluation and Optimization of
+  Interlocking Shell Pieces}.
+\newblock \bibinfo{journal}{{\em Comp. Graph. Forum\/}} \bibinfo{volume}{36},
+  \bibinfo{number}{7} (\bibinfo{year}{2017}), \bibinfo{pages}{1--13}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zhang and Balkcom}{Zhang and Balkcom}{2016}]%
+        {Zhang-2016-InterlockVoxel}
+\bibfield{author}{\bibinfo{person}{Yinan Zhang} {and} \bibinfo{person}{Devin
+  Balkcom}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Interlocking Structure Assembly with Voxels}. In
+  \bibinfo{booktitle}{{\em IEEE/RSJ Intl. Conf. on Intelligent Robots and
+  Systems}}. \bibinfo{pages}{2173--2180}.
+\newblock
+
+
+\end{thebibliography}
