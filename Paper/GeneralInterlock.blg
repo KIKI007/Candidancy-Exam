@@ -5,78 +5,55 @@ The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: GeneralInterlock.bib
-You're missing a field name---line 459 of file GeneralInterlock.bib
+You're missing a field name---line 252 of file GeneralInterlock.bib
  :  
  :  %pages        =    {2173--2180},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--page numbers missing in both pages and numpages fields in deGoes-2013-Equilibrium
-Warning--empty publisher in Deepak-2012-InterlockBlock
-Warning--empty address in Deepak-2012-InterlockBlock
-Warning--page numbers missing in both pages and numpages fields in Deepak-2012-InterlockBlock
-Warning--page numbers missing in both pages and numpages fields in Deuss-2014-AssembleSelfSupport
-Warning--page numbers missing in both pages and numpages fields in Duncan-2016-Hands-OnAssembly
-Warning--empty publisher in Frick-2015-Self-SupportPuzzle
-Warning--empty address in Frick-2015-Self-SupportPuzzle
 Warning--page numbers missing in both pages and numpages fields in Fu-2015-Furniture
-Warning--page numbers missing in both pages and numpages fields in Lau-2011-Furniture
-Warning--page numbers missing in both pages and numpages fields in Li-2008-ExplodedView
-Warning--page numbers missing in both pages and numpages fields in Liu-2013-RegularTriangulation
-Warning--page numbers missing in both pages and numpages fields in Miki-2015-AiryStressFunctions
-Warning--page numbers missing in both pages and numpages fields in Panozzo-2013-SelfSupportMasonry
-Warning--empty publisher in Rippmann-2016-ArmadilloVault
-Warning--empty address in Rippmann-2016-ArmadilloVault
-Warning--page numbers missing in both pages and numpages fields in Shao-2016-Furniture
-Warning--page numbers missing in both pages and numpages fields in Skouras-2015-InterlockElement
 Warning--page numbers missing in both pages and numpages fields in Song-2016-CoFiFab
 Warning--page numbers missing in both pages and numpages fields in Song-2012-InterCubes
-Warning--page numbers missing in both pages and numpages fields in Song-2017-ReconfigInterlock
-Warning--page numbers missing in both pages and numpages fields in Tang-2014-PolyhedralMesh
-Warning--page numbers missing in both pages and numpages fields in Whiting-2009-ModelMasonry
 Warning--page numbers missing in both pages and numpages fields in Xin-2011-BurrPuzzles
-Warning--page numbers missing in both pages and numpages fields in Yao-2017-DecorativeJoinery
-Warning--empty publisher in Zhang-2016-InterlockVoxel
-Warning--empty address in Zhang-2016-InterlockVoxel
-You've used 46 entries,
+You've used 7 entries,
             5706 wiz_defined-function locations,
-            1620 strings with 24655 characters,
-and the built_in function-call counts, 53332 in all, are:
-= -- 7833
-> -- 2379
+            1396 strings with 17217 characters,
+and the built_in function-call counts, 8132 in all, are:
+= -- 1220
+> -- 384
 < -- 0
-+ -- 741
-- -- 784
-* -- 4001
-:= -- 5556
-add.period$ -- 250
-call.type$ -- 46
-change.case$ -- 362
-chr.to.int$ -- 45
-cite$ -- 73
-duplicate$ -- 3720
-empty$ -- 2783
-format.name$ -- 943
-if$ -- 13631
-int.to.chr$ -- 2
++ -- 122
+- -- 128
+* -- 624
+:= -- 857
+add.period$ -- 39
+call.type$ -- 7
+change.case$ -- 57
+chr.to.int$ -- 7
+cite$ -- 11
+duplicate$ -- 529
+empty$ -- 405
+format.name$ -- 152
+if$ -- 2077
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 176
-newline$ -- 442
-num.names$ -- 367
-pop$ -- 1677
+missing$ -- 28
+newline$ -- 104
+num.names$ -- 56
+pop$ -- 251
 preamble$ -- 1
-purify$ -- 591
+purify$ -- 92
 quote$ -- 0
-skip$ -- 1278
+skip$ -- 167
 stack$ -- 0
-substring$ -- 3300
-swap$ -- 355
+substring$ -- 450
+swap$ -- 40
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 831
-warning$ -- 27
-while$ -- 302
+type$ -- 112
+warning$ -- 4
+while$ -- 45
 width$ -- 0
-write$ -- 836
+write$ -- 162
 (There was 1 error message)
